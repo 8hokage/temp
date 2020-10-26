@@ -1,0 +1,7 @@
+{
+  "name": "exchanger",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
