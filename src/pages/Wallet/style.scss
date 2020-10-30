@@ -1,0 +1,119 @@
+.pin-label {
+  display: flex;
+}
+
+ion-toolbar {
+  --background: rgba(0,0,0,0);
+}
+
+ion-item {
+  --background: rgba(0,0,0,0);
+}
+  
+ion-button {
+  border: 0 solid;
+  border-radius: 35px;
+  --background: rgb(49, 49, 49);
+  --border-radius: 35px;
+  --padding-top: 21px;
+  --padding-bottom: 21px;
+  --padding-start: 21px;
+  --padding-end: 21px;
+  font-size: 14px;
+  height: 56px;
+  width: 260px;
+  position: relative;
+}
+
+.buttons-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gradient-border {
+  position: relative;
+  display: block;
+  text-align: center;
+  width: 260px;
+  height: 60px;
+  margin-top: 21px;
+}
+
+.button-gradient {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+}
+
+#rect1 { fill: url(#Gradient1); }
+.stop1 { stop-color:  rgb(5, 198, 110); }
+.stop2 { stop-color: rgb(15, 255, 0); }
+
+.header {
+  height: 310px;
+}
+
+.canvas {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  z-index: 100;
+}
+
+.general-info {
+  position: absolute;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .info-heading {
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .info-amount {
+    font-family: "DMMono";
+    font-size: 30px;
+    span {
+      font-size: 14px;
+    }
+  }
+
+  .info-amount-converted {
+    font-size: 10px;
+    color: rgb(198, 198, 198);
+  }
+}
+
+.item-center {
+  margin-left: 11px;
+}
+
+.item-end {
+  display: flex;
+  .first {
+    text-align: right;
+    margin-right: 8px;
+    .main-row {
+
+    }
+  }
+
+  .second {
+
+  }
+}
